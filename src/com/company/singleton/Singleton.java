@@ -1,15 +1,15 @@
-package com.hungergames;
+package com.company.singleton;
 
 public class Singleton {
 
-    private static Singelton firstInstance = null;
+    private static Singleton firstInstance = null;
 
     private Singleton() {}
 
     public static Singleton getInstance() {
 
         if(firstInstance == null){
-            firstInstance = new Singleton()
+            firstInstance = new Singleton();
         }
         return firstInstance;
     }
