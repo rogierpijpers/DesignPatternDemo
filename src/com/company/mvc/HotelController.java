@@ -14,23 +14,6 @@ public class HotelController {
         this.hotelView = hotelView;
     }
 
-    public void setHotelName() {
-
-    }
-
-    public String getHotelName() {
-
-        return hotel.getName();
-    }
-
-    public void setHotelLocation() {
-
-    }
-
-    public String getHotelLocation() {
-        return hotel.getLocation();
-    }
-
     public void updateView() {
         hotelView.printHotelNameAndLocation(hotel.getName(), hotel.getLocation());
     }
